@@ -1,4 +1,4 @@
-## Dataset Q&A  RAG with Gemma, MongoDB ##
+## Document / Dataset Q&A  RAG with Gemma, MongoDB ##
 
 ### The notebook showcases following ###
 ### * General Text Embeddings to create text embeddings of dataset or documents ###
