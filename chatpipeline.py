@@ -1,3 +1,9 @@
+'''
+
+Chat pipeline that stores User & AI conversations serving as memory for LLM
+
+'''
+
 from transformers import pipeline
 
 

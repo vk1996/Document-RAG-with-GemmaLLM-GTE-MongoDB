@@ -1,3 +1,9 @@
+'''
+
+data pipeline based on dataframe. takes care of loading / writing  MongoDB cluster, vector search for retrieval
+
+'''
+
 import json
 import pymongo
 from pymongo.mongo_client import MongoClient

@@ -1,3 +1,8 @@
+'''
+
+RAG pipeline that involves parsing texts, Database management & retrieval, LLM based summarization and chat
+
+'''
 from db_utils import DButils
 from ml_utils import MLutils
 from chatpipeline import ChatPipeline
@@ -8,8 +13,8 @@ from matplotlib import pyplot as plt
 
 
 
-uri = "mongodb+srv://dbuser1:G-D4tqamxgBLSB-@cluster0.f9wvd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-root_dir="/home/vk/personal/PlanRadar_Assessment_AI_ML_Engineer/assessment-ml-engineer/data/"
+uri = "your-mongodb-cluster-uri"
+root_dir="your-data-dir"
 descr_fpath=os.path.join(root_dir,"descriptions.json")
 img_dir=os.path.join(root_dir,"images")
 img_extension=".png"

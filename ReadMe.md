@@ -7,6 +7,12 @@
 ### * Use Google Gemma 2B LLM to summarise results as text / image based on input query related to dataset or document information ###
 ### * Huggingface chat pipeline to remember your queries & chat ###
 
+#### sample dataset for inference [download link](https://drive.google.com/file/d/1czJDgLRcGeJY6c162f0SNZTIafoHzrcw/view?usp=drive_link) ####
+```commandline
+$pip install -r requirements.txt
+$python3 main.py
+```
+
 ![output.png](output.png)
 
 ### ToDo ###

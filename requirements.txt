@@ -1,4 +1,4 @@
 transformers
-sentence_transformers
+open_clip_torch
 pandas
 pymongo

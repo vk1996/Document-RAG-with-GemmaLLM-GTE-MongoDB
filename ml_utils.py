@@ -1,3 +1,7 @@
+'''
+
+ML pipeline that loads OpenClip embedding models/tokenizers, Gemma 2b LLM and predictions
+'''
 import open_clip
 from PIL import Image
 from transformers import AutoTokenizer, AutoModelForCausalLM
