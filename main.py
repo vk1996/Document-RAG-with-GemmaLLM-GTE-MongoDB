@@ -21,7 +21,7 @@ img_extension=".png"
 pattern = r"\d+\.png"
 mlutils=MLutils()
 dbutils=DButils(uri,mlutils)
-load_descriptions_to_mongodb=False
+load_descriptions_to_mongodb=False #enable to update / create embeddings in MongoDB
 
 
 if load_descriptions_to_mongodb and ".json" in descr_fpath:
